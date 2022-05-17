@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button mnemonicParsing="false" onAction="#add" prefHeight="26.0" prefWidth="25.0" text="+" GridPane.columnIndex="1" />
+      <Label fx:id="myLabel" GridPane.rowIndex="1" />
+      <TextField fx:id="TF1" />
+      <TextField fx:id="TF2" GridPane.columnIndex="2" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="166.0" minWidth="131.4" prefWidth="131.4" />
+      <ColumnConstraints maxWidth="95.00000000000003" minWidth="10.0" prefWidth="94.0" />
+      <ColumnConstraints maxWidth="170.8" minWidth="10.0" prefWidth="130.8" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
